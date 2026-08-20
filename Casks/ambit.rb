@@ -4,7 +4,7 @@ cask "ambit" do
 
   url "https://github.com/JC-kk/ambit/releases/download/v#{version}/Ambit-#{version}.dmg"
   name "Ambit"
-  desc "Menu bar control panel for Claude Code and Codex skills, MCP servers and subagents"
+  desc "Switch panel for Claude Code and Codex skills, MCP servers and subagents"
   homepage "https://github.com/JC-kk/ambit"
 
   # Ad-hoc signed rather than notarised: notarisation needs a paid Apple Developer account. Install
