@@ -10,7 +10,7 @@ cask "ambit" do
   # Ad-hoc signed rather than notarised: notarisation needs a paid Apple Developer account. Install
   # with `--no-quarantine`, or clear the flag afterwards with
   #   xattr -dr com.apple.quarantine /Applications/Ambit.app
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Ambit.app"
 
