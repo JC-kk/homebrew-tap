@@ -16,7 +16,5 @@ cask "ambit" do
 
   # The library is the user's source of truth for every skill and subagent, so it is never removed
   # on uninstall. Delete ~/.agent-capabilities by hand if you really mean to.
-  zap trash: [
-    "~/Library/Saved Application State/dev.ambit.Ambit.savedState",
-  ]
+  zap trash: "~/Library/Saved Application State/dev.ambit.Ambit.savedState"
 end
